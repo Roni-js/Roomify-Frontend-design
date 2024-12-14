@@ -89,6 +89,7 @@ a {
     display: flex;
     padding: 2rem;
     margin-left: 5rem;
+    height: 55rem;
 }
 .hero-text{
 font-size: 5rem;
