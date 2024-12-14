@@ -1,0 +1,277 @@
+
+*{
+    align-items: center;
+    justify-content: center;
+        font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Header Section */
+
+.navbar {
+    width: 100%;
+    margin-top: 0rem;
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap naturally */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem; /* Adds spacing around the navbar */
+    gap: 1rem; /* Creates space between items */
+
+}
+.logo-img {
+    margin: 1rem;
+    height: auto; /* Automatically adjust height */
+    max-height: 6vh; /* Limits the height without stretching */
+    width: auto; /* Maintain aspect ratio */
+    cursor: pointer;
+}
+.nav-links {
+    display: flex;
+    flex-wrap: wrap; /* Stacks links naturally if space is insufficient */
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    gap: 0.5rem; /* Adds a small gap between links */
+}
+.home:hover{
+    color: #006AE8;
+}
+.nav-features:hover{
+    color: #006AE8;
+}
+.downloads:hover{
+    color: #006AE8;
+}
+.plans:hover{
+    color: #006AE8;
+}
+a {
+    text-decoration: none;
+    font-size: 1.4rem; /* Base size that works across devices */
+    color: inherit; /* Use inherited color */
+    padding: 0.5rem; /* Add spacing around links for better usability */
+    text-align: center; /* Center-align text */
+    white-space: nowrap; /* Prevents link text from breaking into multiple lines */
+}
+
+.auth-buttons {
+    margin-right: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Creates space between buttons */
+}
+
+.sign-up, .login {
+    padding: 0.5rem 1rem; /* Adds space around button text */
+    border-radius: 50px; /* Rounded buttons */
+    cursor: pointer;
+    font-size: 1rem;
+    white-space: nowrap; /* Prevents button text from wrapping */
+}
+
+.sign-up {
+    border: 2px solid #006AE8;
+    color: #006AE8;
+    background-color: aliceblue;
+}
+
+.login {
+    padding: 0.7rem 1.5rem;
+    border: 2px solid #006AE8;
+    color: aliceblue;
+    background-color: #006AE8;
+    border: none;
+}
+
+/* Hero Section */
+
+.hero{
+    display: flex;
+    padding: 2rem;
+    margin-left: 5rem;
+}
+.hero-text{
+font-size: 5rem;
+}
+.hero-para{
+    font-size: 1.4rem;
+    margin-top: -3vh;
+    color: gray;
+}
+.cta-button{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    padding: 1.2rem 2.5rem; 
+    border-radius: 50px; 
+    cursor: pointer;
+    white-space: nowrap; 
+    border: 2px solid #006AE8;
+    color: #ffffff;
+    background-color: #006AE8;
+}
+.hero-image{
+    height: 650px;
+    width: auto;
+    margin-left: 5vw;
+   
+}
+.stats{
+    width: 100%;
+    height: 30rem;
+    background-color: rgb(245, 245, 245);
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+
+/* Statistics Section */
+
+.stat-item{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+.stat-para{
+    font-size: 2.2rem;
+    margin-left: 40%;
+}
+.company-img{
+
+    display: flex;
+    margin-left: 0;
+    filter: grayscale();
+  
+}
+.contentful{
+    
+    margin-left: -5rem;
+    margin-top: -2rem;
+    height: 15vh;
+    padding: 1rem;
+}
+.strip{
+    margin-top: -2.5rem;
+    height: 14vh;
+}
+.shopify{
+    margin-top: -2.5rem;
+    height: 10vh;
+    padding: 1rem;
+}
+.slack{
+    height: 13vh;
+    margin-top: -2.5rem;
+}
+.airbnb{
+    margin-top: -2.5rem;
+    height: 14vh;
+    padding: 1rem;
+}
+.maze{
+    height: 17vh;
+    margin-top: -2.5rem;
+}
+.stat-item-first-number,.stat-item-forth-number,.stat-item-third-number,.stat-item-secound-number{
+display: flex;
+font-size: 5rem;
+padding: 0;
+margin: 0;
+}
+.stat-item-first-number-para,.stat-item-secound-number-para,.stat-item-third-number-para,.stat-item-forth-number-para{
+padding: 0;
+margin: 0;
+color: gray;
+}
+.stat-item-first-number{
+    margin-top: 5rem;
+margin-left: -70rem;
+}
+.stat-item-first-number-para{
+    margin-left: 14vw;
+    font-size: 1.2rem;
+    
+}
+.stat-item-secound-number{
+    margin-top: -7.5rem;
+    margin-left: -30rem;
+}
+.stat-item-secound-number-para{
+    margin-left: 33.2vw;
+    font-size: 1.2rem;
+    
+}
+.stat-item-third-number{
+    margin-top: -7rem;
+    margin-left: 12rem;
+}
+.stat-item-third-number-para{
+    margin-left: 50vw;
+    font-size: 1.2rem;
+    
+}
+.stat-item-forth-number{
+    margin-top: -7rem;
+    margin-left: 52rem;
+}
+.stat-item-forth-number-para{
+    margin-left: 69vw;
+    font-size: 1.2rem;
+    
+}
+/*  Features Section  */
+#features{
+    display: flex;
+}
+.features-text-one{
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: -22vw;
+    font-size: 5rem;
+    font-weight: bold;
+}
+.feature-image{
+    height: 700px;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.line-img{
+    display: flex;
+    margin-left: -40rem;
+    padding: 0;
+    margin-top: -30rem;
+}
+.feature-item-options{
+    margin-top: 1rem;
+    display: flex;
+color: gray;
+font-size: 1.5rem;
+margin-left: -112rem;
+cursor: pointer;
+}
+.virtual-meetings{
+    margin-top: -52rem;
+}
+.live-chat{
+    margin-top: -42rem;
+    margin-left: -4.2rem;
+}
+.ai-companion{
+    margin-top: -32rem;
+    margin-left: -1.5rem;
+    color: black;
+    font-weight: bold;
+}
+.ai-summarize{
+    margin-top: -21rem;
+    margin-left: -1.5rem;
+}
+.meeting-clip{
+    margin-top: -12rem;
+    margin-left: -2.5rem;
+}
+
+/* ollaboration Section */
+
+.collaboration{
+    background-color: #f5f5f5;
+}
