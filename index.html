@@ -6,159 +6,172 @@
     <title>Roomify</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="Fav.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <div class="container">
-    <!-- Header Section -->
-    <header>
-      <nav class="navbar">
-        <div class="logo">
+    <!-- Nav Section -->
+      <nav>
+        <div class="container main-nav flex">
+         <a class="company-logo">
           <img src="logo.png" alt="Roomify Logo"  class="logo-img"/>
-        </div>
+        </a>
         <div class="nav-links">
-          <a href="/" class="home">Home</a>
-          <a href="/" class="nav-features">Features</a>
-          <a href="/" class="downloads">Downloads</a>
-          <a href="/" class="plans">Plans & Pricing</a>
-        </div>
-        <div class="auth-buttons">
-          <button class="sign-up">Sign Up</button>
-          <button class="login">Login</button>
-        </div>
+          <ul class="flex nav-option">
+            <li><a href="#" class="hover-link home">Home</a></li>
+            <li><a href="#" class="hover-link features">Features</a></li>
+            <li><a href="#" class="hover-link downloads">Downloads</a></li>
+            <li><a href="#" class="hover-link plans">Plans & Pricing</a></li>
+          </ul>
+          <div class="auth-btn">
+          <button class="sign-up customer-btn">Sign Up</button> 
+          <button class="login customer-btn2">Login</button>
+        </div></div></div>
       </nav>
-    </header>
 
     <!-- Hero Section -->
+     <header>
     <section class="hero">
-      <div class="hero-content">
+      <div class="container header-section flex">
+      <div class="header">
         <h1 class="hero-text">Supercharge your <br> meetings and <br> make it effective</h1>
         <p class="hero-para">
           Experience the future of virtual communication today. <br> Say hello to a
           whole new way of connecting!
         </p>
-        <button class="cta-button">Start meeting now</button>
+        <button class="primary-button start-meeting-btn ">Start meeting now</button>
       </div>
-      <div class="hero-image">
+      <div class="header-right">
         <img src="1st.png" alt="Hero Image" />
-      </div>
-    </section>
+      </div></div>
+    </section></header>
 
     <!-- Statistics Section -->
-    <section class="stats">
+
+    <section class="companies-section">
+      <div class="container">
       <div class="stat-item">
-        <h2 class="stat-para">Used by proffesionals on</h2>
-        <div class="company-img">
-         <img src="contentful-logo-vector-removebg-preview.png" alt="" class="contentful">
-         <img src="stripe-removebg-preview.png" alt="" class="strip">
-         <img src="shopify-removebg-preview.png" alt="" class="shopify">
-         <img src="slack-removebg-preview.png" alt="" class="slack">
-         <img src="Airbnb-removebg-preview.png" alt="" class="airbnb">
-         <img src="maze-removebg-preview.png" alt="" class="maze"></div>
-        <h2 class="stat-item-first-number">200K+</h2>
-        <p class="stat-item-first-number-para">Using using the platform</p>
+        <h2 class="companies-header">Used by proffesionals on</h2>
+        <div class="logos flex">
+         <img src="contentful-logo-vector-removebg-preview.png" alt="" class="companies-logo">
+         <img src="stripe-removebg-preview.png" alt="" class="companies-logo">
+         <img src="shopify-removebg-preview.png" alt="" class="companies-logo">
+         <img src="slack-removebg-preview.png" alt="" class="companies-logo">
+         <img src="Airbnb-removebg-preview.png" alt="" class="companies-logo">
+         <img src="maze-removebg-preview.png" alt="" class="companies-logo"></div>
+        <div class="companies-number flex">
+         <h2 class="first-number">200K+</h2>
+        <h2 class="secound-number">98%</h2>
+        <h2 class="third-number">150+</h2>
+        <h2 class="forth-number">10pb</h2>
       </div>
-      <div class="stat-item">
-        <h2 class="stat-item-secound-number">98%</h2>
-        <p class="stat-item-secound-number-para">Revenue growth</p>
-      </div>
-      <div class="stat-item">
-        <h2 class="stat-item-third-number">150+</h2>
-        <p class="stat-item-third-number-para">Corporation companies</p>
-      </div>
-      <div class="stat-item">
-        <h2 class="stat-item-forth-number">10pb</h2>
-        <p class="stat-item-forth-number-para">Data saved</p>
-      </div>
+      <div class="companies-text flex">
+        <p class="first-number-para">Using using the platform</p>
+        <p class="secound-number-para">Revenue growth</p>
+        <p class="third-number-para">Corporation companies</p>
+        <p class="forth-number-para">Data saved</p>
+      </div> </div></div>
     </section>
 
     <!-- Features Section -->
-    <section class="features" id="features">
+    <section class="features-section ">
+      <div class="container flex">
+        <div1 class="feature-left">
       <h2 class="features-text-one">Flexible solutions <br> for all your needs</h2>
-      <div class="feature-list">
+      <img src="line.png" class="line-img" alt="">
+      <div class="feature-list flex">
         <div class="feature-item">
-          <img src="2nd.png" alt="Feature Icon"  class="feature-image"/>
-          <img src="line.png" class="line-img" alt="">
           <div class="feature-item-options">
-          <p class="virtual-meetings">Virtual Meetings</p></div>
-        </div>
-        <div class="feature-item-options">
+          <p class="virtual-meetings">Virtual Meetings</p>
           <p class="live-chat">Live Chat</p>
-        </div>
-        <div class="feature-item-options">
           <p class="ai-companion">AI Companion</p>
-        </div>
-        <div class="feature-item-options">
           <p class="ai-summarize">AI Summarize</p>
-        </div>
-        <div class="feature-item-options">
           <p class="meeting-clip">Meeting Clip</p>
-        </div>
+          </div></div1>
+          <div class="feature-right flex">
+            <img src="2nd.png" alt="Feature Icon"  class="feature-image"/>
+          </div>
       </div>
+    </div>
+    
+      
     </section>
 
     <!-- Collaboration Section -->
-    <section class="collaboration">
-      <h2>Now you can have conversations without missing anything</h2>
+    <section class="collaboration-section">
+      <div class="container ">
+      <h2 class="collaboration-text">Now you can have conversations <br> without missing anything</h2>
       <div class="collaboration-content">
-        <img src="3rd.png" alt="Collaboration Image" />
-      </div>
+        <img src="3rd.png" alt="collaboration Image" class="collaboration-img" />
+      </div></div>
     </section>
-    <section class="collaboration">
-        <nav class="collabration-nav">
+    <div class="collaboration">
+        <nav class="collabration-nav flex">
             <span class="record-meeting">Record Meeting</span>
             <span class="record-meeting">Meeting Clip</span>
             <span class="record-meeting">Notes</span>
-            <span class="record-meeting">Share Meeting</span>
+            <span class="share-meeting">Share Meeting</span>
             <span class="record-meeting">Mall and Calendar</span>
             <span class="record-meeting">Cloud Storage</span>
           </nav>
-      <h2>Make your team collaboration easy</h2>
-      <p>
-        Collaborate with your team no matter where you are. Share meeting notes,
-        collaborate on tasks, and stay connected across devices with seamless
-        integration.
-      </p>
-      <div class="collaboration-content">
-        <img src="4th.png" alt="Collaboration Tools" />
+          <img src="line2.png" alt="" class="line2-img">
+          <div class="collab">
+         
+          <div class="collaboration-left flex">
+          <img src="4th.png" alt="Collaboration Tools"  class="collab-img"/>
       </div>
+      <div class="collaboration-right">
+      <h2 class="team-collabration-text">Make your team <br> collaboration easy</h2>
+      <p class="team-collabration-para">
+        Collaborate by Share your meetings with colleagues <br> or clients. With our intutive sharing feature, you can <br> seamlessly send meeting invites and links to join, <br> ensuring everyone is on the same page.
+      </p>
       <div class="collaboration-details">
         <div class="collaboration-feature">
-          <h3>Invite Your Team</h3>
-          <p>
-            Add team members to your meetings to work together efficiently.
-            Invite participants directly from your workspace.
+          <div class="invitation-section">
+          <i class="fa-solid fa-user-plus icon invite-icon"></i>
+          <h3 class="team-invite">Invite Your Team</h3>
+          <p class="team-invite-para">
+           Easily invite your team <br> members and colleagues to <br> join your meting.
           </p>
         </div>
         <div class="collaboration-feature">
-          <h3>Join Across Multiple Devices</h3>
-          <p>
-            Roomify allows you to join meetings from any device, ensuring no one
-            misses a thing.
-          </p>
-        </div>
-      </div>
+          <i class="fa-solid fa-laptop icon icon-two"></i>
+          <h3 class="join">Join Across Multiple Devices</h3>
+          <p class="join-para">
+            Giving you flexibility and allow <br> you to use the same account <br> on multiple devices.
+          </p></div>
+        </div></div>
+      </div></div></div>
     </section>
 
     <!-- Pricing Section -->
-    <section class="pricing" id="pricing">
-      <h2>Simple pricing and clear value</h2>
+    <section class="pricing" >
+      <div class="container">
+      <h2 class="offer-pannel">Simple pricing <br> and clear value</h2>
       <div class="pricing-plans">
         <div class="plan">
-          <h3>Basic Pro</h3>
-          <p>$100/month</p>
-        </div>
-        <div class="plan">
-          <h3>Business Pro</h3>
-          <p>$150/month</p>
-        </div>
-        <div class="plan">
-          <h3>Business Plus</h3>
-          <p>$200/month</p>
-        </div>
-      </div>
-    </section>
+         <div class="basic-plan">
+          <h3 class="basic-text">Basic Pro</h3>
+          <div class="first-plan-cost"><p class="first-plan-text">only <p class="inner-cost">$100/</p> per month</p></div>
+          <div class="first-plan-beni"><i class="fa-solid fa-circle-check" style="color: #0011ff;"></i><p class="offer-para first-venifits"><b class="bold-text">Meeting</b> up to 30 hour per meeting </p>
+            <i class="fa-solid fa-circle-check" style="color: #0011ff;"></i><p class="offer-para secound-venifits"><b class="bold-text">Up to 100 attendees</b> per meeting </p>
+            <i class="fa-solid fa-circle-check" style="color: #0011ff;"></i><p class="offer-para trird-venifits"><b class="bold-text">Cloud Storage</b> 5GB </p>
+            <i class="fa-solid fa-circle-check" style="color: #0011ff;"></i><p class="offer-para forth-venifits"><b class="bold-text">With GPT-3.5 Companion</b><br> for live chat and host</p>
+            <i class="fa-solid fa-circle-check" style="color: #0011ff;"></i><p class="offer-para fifth-venifits"><b class="bold-text">Clip basic</b> can be edited and <br>downloadd</p></div>
+        <div class="first-plan-buy-btn"><button>Buy Now</button></div>
+          </div>
+        
+      </div></div>
+    </section> 
 
     <!-- FAQ Section -->
-    <section class="faq">
+     <section class="faq">
+      <div class="container">
       <h2>Things you probably wonder</h2>
       <div class="faq-item">
         <p>Is the AI summarizer only available for premium users?</p>
@@ -168,12 +181,13 @@
       </div>
       <div class="faq-item">
         <p>Is all the meeting data on Roomify secure?</p>
-      </div>
+      </div></div>
     </section>
   </div>
-    <!-- Footer Section -->
-    <footer>
-      <p>© 2024 Roomify. All rights reserved.</p>
+     <!-- Footer Section -->
+   <footer><div class="container">
+      <p>© 2024 Roomify. All rights reserved.</p> 
+    </div>
     </footer>
   </body>
 </html>
