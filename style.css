@@ -376,7 +376,6 @@ margin-left: 700px;
 /* Pricing Cards */
 .pricing-cards {
   display: flex;
-  margin-left: -200px;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
