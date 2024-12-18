@@ -147,51 +147,175 @@
           </p></div>
         </div></div>
       </div></div></div>
-    </section>
+    </section><br>
 
-    <!-- Pricing Section -->
-    <section class="pricing" >
-      <div class="container">
-      <h2 class="offer-pannel">Simple pricing <br> and clear value</h2>
-      <div class="pricing-plans">
-        <div class="plan">
-         <div class="basic-plan">
-          <div class="first-plan-cost">
-            <h3 class="basic-text">Basic Pro</h3><p class="first-plan-text">only <para class="h-dollar">$100/</para> per month</p></div><br>
-          <div class="first-plan-beni-one flex "><i class="fa-solid fa-circle-check" style="color: #0011ff;"></i><p class="offer-para first-venifits"><b class="bold-text">Meeting</b> up to 30 hour per meeting </p>
+    <!-- Plan Section -->
+    <div class="container price-container">
+        <h1 class="priding-heading">Simple pricing <br> and clear value</h1>
+        <div class="pricing-cards">
+            <!-- Basic Pro Plan -->
+            <div class="card">
+                <h2>Basic Pro</h2>
+                <p class="price">only <span id="dollar-price">$100</span> /per month</p>
+                <ul>
+                    <li>✔ Meeting up to 30 hours per meeting</li>
+                    <li>✔ Up to 100 attendees per meeting</li>
+                    <li>✔ Cloud Storage 5GB</li>
+                    <li>✔ With GPT-3.5 Companion for live chat and host</li>
+                    <li>✔ Clip basic can be edited and downloaded</li>
+                </ul>
+                <button class="btn disabled">Buy Now</button>
             </div>
-            <div class="first-plan-beni-two flex"><i class="fa-solid fa-circle-check" style="color: #0011ff;"></i><p class="offer-para secound-venifits"><b class="bold-text">Up to 100 attendees</b> per meeting </p>
-              </div>
-              <div class="first-plan-beni-three flex"><i class="fa-solid fa-circle-check" style="color: #0011ff;"></i><p class="offer-para trird-venifits"><b class="bold-text">Cloud Storage</b> 5GB </p>
-                </div>
-              <div class="first-plan-beni-four flex"><i class="fa-solid fa-circle-check" style="color: #0011ff;"></i><p class="offer-para forth-venifits"><b class="bold-text">With GPT-3.5 Companion</b><br> for live chat and host</p>
-                </div>
-              <div class="first-plan-beni-five flex"><i class="fa-solid fa-circle-check" style="color: #0011ff;"></i><p class="offer-para fifth-venifits"><b class="bold-text">Clip basic</b> can be edited and <br>downloadd</p></div>
-        <div class="first-plan-buy-btn"><button>Buy Now</button></div>
-          </div>
-        
-      </div></div>
-    </section> 
+
+            <!-- Business Pro Plan -->
+            <div class="card featured">
+                <div class="offer">Best offer today earn $50 savings</div>
+                <h2>Business Pro</h2>
+                <p class="price"><span class="strike">$120</span> <span id="dollar-price">$70</span> /per month</p>
+                <ul>
+                    <li>✔ Meeting up to 30 hours per meeting</li>
+                    <li>✔ Up to 100 attendees per meeting</li>
+                    <li>✔ Cloud Storage 10GB</li>
+                    <li>✔ With GPT-4 Companion for live chat and host</li>
+                    <li>✔ Clip plus and meeting notes <span class="new">New</span></li>
+                </ul>
+                <button class="btn active">Buy Now</button>
+            </div>
+
+            <!-- Business Plus Plan -->
+            <div class="card">
+                <h2>Business Plus</h2>
+                <p class="price">only <span id="dollar-price">$200</span> /per month</p>
+                <ul>
+                    <li>✔ Meeting up to 30 hours per meeting</li>
+                    <li>✔ Up to 100 attendees per meeting</li>
+                    <li>✔ Cloud Storage unlimited</li>
+                    <li>✔ With GPT-4 Companion for live chat and host</li>
+                    <li>✔ Clip plus and meeting notes <span class="new">New</span></li>
+                </ul>
+                <button class="btn disabled">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+
 
     <!-- FAQ Section -->
-     <section class="faq">
-      <div class="container">
-      <h2>Things you probably wonder</h2>
-      <div class="faq-item">
-        <p>Is the AI summarizer only available for premium users?</p>
+   <div class="container faq-coon">
+    <div class="faq-container">
+      <h1 class="faq-head">Things you probably wonder</h1>
+      <div class="faq">
+          <div class="faq-item">
+              <button class="faq-question">
+                  Is the AI summarize only appear in the premium member on Roomify?
+                  <span class="faq-toggle">+</span>
+              </button>
+              <div class="faq-answer">
+                  <p>
+                      The AI summarize feature is available to all users, but there may be differences in the capabilities 
+                      or performance of the AI based on the version. For specific details about the AI versions and their features, 
+                      it's best to refer to the official documentation or support resources provided by Roomify.
+                  </p>
+              </div>
+          </div>
+
+          <div class="faq-item">
+              <button class="faq-question">
+                  Can I use the video conference meeting app on multiple devices?
+                  <span class="faq-toggle">+</span>
+              </button>
+              <div class="faq-answer">
+                  <p>
+                      Yes, the video conference app can be accessed on multiple devices, including desktops, tablets, and phones.
+                  </p>
+              </div>
+          </div>
+
+          <div class="faq-item">
+              <button class="faq-question">
+                  Do I need to pay to use all the Roomify Features?
+                  <span class="faq-toggle">+</span>
+              </button>
+              <div class="faq-answer">
+                  <p>
+                      Roomify offers both free and premium plans. Some advanced features may require a subscription.
+                  </p>
+              </div>
+          </div>
+
+          <div class="faq-item">
+              <button class="faq-question">
+                  Is all the meeting calls on Roomify secure?
+                  <span class="faq-toggle">+</span>
+              </button>
+              <div class="faq-answer">
+                  <p>
+                      Yes, all meeting calls are encrypted and secured to ensure user privacy.
+                  </p>
+              </div>
+          </div>
+
+          <div class="faq-item">
+              <button class="faq-question">
+                  Are there options for integrating with other tools and platforms?
+                  <span class="faq-toggle">+</span>
+              </button>
+              <div class="faq-answer">
+                  <p>
+                      Roomify supports integration with various third-party tools and platforms to enhance user productivity.
+                  </p>
+              </div>
+          </div>
       </div>
-      <div class="faq-item">
-        <p>Can I use the video conference meeting app on multiple devices?</p>
-      </div>
-      <div class="faq-item">
-        <p>Is all the meeting data on Roomify secure?</p>
-      </div></div>
-    </section>
   </div>
-     <!-- Footer Section -->
-   <footer><div class="container">
-      <p>© 2024 Roomify. All rights reserved.</p> 
+   </div>
+   <!-- meeting-section -->
+   <section class="meeting-section">
+    <div class="content">
+        <h1>You’ve get this far.<br>Ready to get started your <br>important meeting?</h1>
+        <div class="buttons">
+            <a href="#" class="btn outline-btn">Plan and Pricings</a>
+            <a href="#" class="btn solid-btn">Start My Meeting</a>
+        </div>
     </div>
-    </footer>
+</section>
+     <!-- Footer Section -->
+     <footer>
+      <div class="footer-container">
+          <div class="footer-logo">
+              <span class="star"><img src="Fav.png" alt=""></span>
+              <h1>Roomify</h1>
+          </div>
+          <p class="footer-tagline">
+              Experience Efficient Collaboration <br>
+              Enjoy Ultimate Video Meeting App
+          </p>
+          <nav>
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Features</a></li>
+                  <li><a href="#">Downloads</a></li>
+                  <li><a href="#">Plan & Pricings</a></li>
+              </ul>
+          </nav>
+          <div class="social-icons">
+              <span>Follow us</span>
+              <a href="#"><img src="https://img.icons8.com/ios-filled/20/000000/facebook--v1.png" alt="Facebook"></a>
+              <a href="#"><img src="https://img.icons8.com/ios-filled/20/000000/instagram-new.png" alt="Instagram"></a>
+              <a href="#"><img src="https://img.icons8.com/ios-filled/20/000000/cancel.png" alt="Cancel"></a>
+          </div>
+      </div>
+  </footer>
+    <script>
+      const faqItems = document.querySelectorAll(".faq-item");
+  
+      faqItems.forEach((item) => {
+          const question = item.querySelector(".faq-question");
+          question.addEventListener("click", () => {
+              item.classList.toggle("active");
+          });
+      });
+  </script>
+  
   </body>
 </html>
