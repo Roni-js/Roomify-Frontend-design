@@ -324,8 +324,30 @@ margin-left: 700px;
   color: black;
 }
 .bold-text{
- font-weight: 900;
+ font-weight: 500;
 }
-.first-venifits{
-  
+.basic-plan{
+ background-color: white;
+ width: 400px;
+ height: 600px ;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ padding: 40px;
+ border-radius: 20px;
+}
+.first-plan-cost{
+  border-color: var(--third-color);
+  border-radius: 10px;
+  padding-left: 200px;
+  padding: 10px;
+  border-style: ridge;
+}
+.first-plan-text{
+  margin-top: 5px;
+  font-weight: 300;
+}
+.h-dollar{
+  font-size: 25px;
+  color: var(--secoundary-color);
 }
